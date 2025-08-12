@@ -1,0 +1,145 @@
+/* Academics.css */
+.academics-container {
+  position: relative;
+  padding: 100px 20px 50px;
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  background-image: var(--section-background-color);
+}
+
+.academics-title {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.academics-subtitle {
+  font-size: 1.2rem;
+  color: #c770f0;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+/* Timeline Styles */
+.vertical-timeline::before {
+  background: linear-gradient(to bottom, #c770f0, #3b82f6) !important;
+  width: 4px !important;
+}
+
+.timeline-content {
+  text-align: left;
+}
+
+.timeline-title {
+  color: #c770f0 !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+}
+
+.timeline-institution {
+  color: #ffffff !important;
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  margin-bottom: 8px !important;
+  opacity: 0.9;
+}
+
+.timeline-grade {
+  color: #3b82f6 !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 15px !important;
+}
+
+.timeline-details {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+.timeline-details li {
+  color: #e0e0e0 !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 8px !important;
+  padding-left: 20px !important;
+  position: relative;
+}
+
+.timeline-details li::before {
+  content: "▸";
+  color: #c770f0;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.timeline-date {
+  color: #c770f0 !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1170px) {
+  .timeline-date {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    margin: 0 0 10px 0 !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .academics-container {
+    padding: 80px 10px 30px;
+  }
+
+  .academics-title {
+    font-size: 2.2rem;
+  }
+
+  .academics-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .timeline-title {
+    font-size: 1.2rem !important;
+  }
+
+  .timeline-institution {
+    font-size: 1rem !important;
+  }
+
+  .timeline-details li {
+    font-size: 0.85rem !important;
+  }
+}
+
+/* Custom Timeline Element Animations */
+.vertical-timeline-element-content {
+  transition: all 0.3s ease !important;
+}
+
+.vertical-timeline-element-content:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 8px 25px rgba(199, 112, 240, 0.4) !important;
+}
+
+/* Icon Animations */
+.vertical-timeline-element-icon {
+  transition: all 0.3s ease !important;
+}
+
+.vertical-timeline-element:hover .vertical-timeline-element-icon {
+  transform: scale(1.1) !important;
+}
+
+.academic-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
