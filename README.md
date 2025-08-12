@@ -49,7 +49,7 @@ This portfolio is built using the following technologies:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/oxBinaryBrain/Portfolio.git
+   git clone https://github.com/negiamishhu/Portfolio.git
    cd Portfolio
    ```
 
@@ -107,9 +107,9 @@ Portfolio/
 
 Feel free to reach out to me for any inquiries or collaborations:
 
-- **Email**: [ud4yg@yandex.com](mailto:ud4yg@yandex.com)
-- **LinkedIn**: [Uday G](https://www.linkedin.com/in/uday-g-601ba9266/)
-- **GitHub**: [oxBinaryBrain](https://github.com/oxBinaryBrain)
+- **Email**: [ negiamishu@gmail.com](mailto:negiamishu@gmail.com)
+- **LinkedIn**: [ Amishu Negi](https://www.linkedin.com/in/amishunegi/)
+- **GitHub**: [Amishu Negi](https://github.com/negiamishhu)
 
 ## License
 
