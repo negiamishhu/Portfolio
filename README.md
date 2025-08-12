@@ -2,6 +2,12 @@
 
 A modern, responsive personal portfolio website showcasing my skills, projects, and experiences as a Software Engineer, Web Developer, and Machine Learning Enthusiast.
 
+## 🌐 Live Demo
+
+**[View Live Portfolio](https://portfolio-beta-eight-70.vercel.app/)**
+
+The portfolio is deployed and live on Vercel. Click the link above to explore the interactive website.
+
 ## About Me
 
 I am a passionate Software Engineer and Open-Source Contributor with experience in web development, AI tools, and cryptocurrency. I have expertise in JavaScript, Linux, and a variety of programming languages and frameworks. My goal is to advance my skills, contribute to open-source projects, and work on innovative solutions in AI, web development, and blockchain technologies.
